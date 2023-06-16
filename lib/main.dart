@@ -111,6 +111,16 @@ class _CalculatorState extends State<Calculator> {
                 ButtonDesign("+", Colors.amber.shade700, Colors.white),
               ],
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
+              children: [
+                ButtonDesign("1", Colors.grey, Colors.white),
+                ButtonDesign("2", Colors.grey, Colors.white),
+                ButtonDesign("3", Colors.grey, Colors.white),
+                ButtonDesign("+", Colors.amber.shade700, Colors.white),
+              ],
+            ),
             const SizedBox(height: 20,),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
